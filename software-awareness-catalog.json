@@ -14,6 +14,19 @@
     {"id":"12","name":"norms awareness","topic":"software","elementtype":"nfr-softgoal"}, 
     {"id":"13","name":"social relationships awareness","topic":"software","elementtype":"nfr-softgoal"}, 
     {"id":"14","name":"user awareness","topic":"software","elementtype":"nfr-softgoal"}],
-  "edges": []
+  "edges": [{"id":"15","linktype":"help", "source": "02", "target": "01"},
+           {"id":"16","linktype":"help", "source": "06", "target": "01"},
+           {"id":"17","linktype":"help", "source": "07", "target": "01"},
+           {"id":"18","linktype":"help", "source": "11", "target": "01"},
+           {"id":"19","linktype":"help", "source": "03", "target": "02"},
+           {"id":"20","linktype":"help", "source": "04", "target": "02"},
+           {"id":"21","linktype":"help", "source": "05", "target": "02"},
+           {"id":"22","linktype":"help", "source": "08", "target": "07"},
+           {"id":"23","linktype":"help", "source": "09", "target": "07"},
+           {"id":"24","linktype":"help", "source": "10", "target": "07"},
+           {"id":"25","linktype":"help", "source": "12", "target": "11"},
+           {"id":"26","linktype":"help", "source": "13", "target": "11"},
+           {"id":"27","linktype":"help", "source": "14", "target": "11"}]
+  
   
 }
