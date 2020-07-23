@@ -47,7 +47,29 @@
             "type": "string",
             "description": "An explanation about the puropose of this instance described by this schema.",
             "name": "topic"
-          }          
+          },
+            "label": {
+            "type": "string",
+            "enum": [ "satisficed", "denied", "conflicting", "undetermined"],
+            "description": "An explanation about the puropose of this instance described by this schema.",
+            "name": "label"
+          },
+            "priority": {
+            "type": "string",
+            "enum": [ "critical", "dominant"],
+            "description": "An explanation about the puropose of this instance described by this schema.",
+            "name": "priority"
+          },
+            "author": {
+            "type": "string",
+            "description": "An explanation about the puropose of this instance described by this schema.",
+            "name": "author"
+          },
+            "creationTime": {
+            "type": "string",
+            "description": "An explanation about the puropose of this instance described by this schema.",
+            "name": "creationTime"
+          }
         }
       }
     },
@@ -78,7 +100,7 @@
           },
           "linkType": {
             "type": "string",
-            "enum": [ "make", "help", "hurt", "brake", "contribution", "and", "or"],
+            "enum": [ "make", "help", "hurt", "brake", "and", "or"],
             "description": "An explanation about the puropose of this instance described by this schema.",
             "name": "linkType"
           }        }
