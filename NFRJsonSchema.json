@@ -18,12 +18,6 @@
       "description": "a short descriptive name for the diagram.",
       "name": "diagram"
     },
-    "modelType": {
-      "type": "string",
-      "enum": [ "Type, Method", "Correlation" ],
-      "description": "It propetie describes the type of softgoal interdependency graph.",
-      "name": "modelType"
-    },
     "nodes": {
       "type": "array",
       "description": "The set of nodes of the NFR model",
